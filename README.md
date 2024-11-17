@@ -30,26 +30,25 @@ The application provides a simple GUI using `tkinter`.
 python main.py
 ```
 ## How to Use
-Add Item:
-
+### Add Item:
 Click the Add Item button in the GUI.
 Enter the item name, description, and select the contact type (Phone or WeChat).
 Enter the contact information. If Phone is selected, it will check that the phone number is exactly 11 digits.
 The item will be saved and displayed in the list.
-Delete Item:
 
+### Delete Item:
 Click the Delete Item button.
 Enter the item ID you want to delete, and it will be removed from the list.
-Search Item:
 
+### Search Item:
 Click the Find Item button.
 Enter the item name (it supports both exact and partial matching).
 If there are any exact matches, they will be displayed under Exact Matches.
 If there are any partial matches, they will be displayed under Partial Matches (but not duplicate exact matches).
-Display All Items:
 
+### Display All Items:
 Click the Display All Items button to view all items saved in the application.
-Exit:
 
+### Exit:
 Click the Exit button to close the application.
 
